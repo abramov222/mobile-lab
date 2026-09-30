@@ -1,0 +1,6 @@
+<resources>
+    <style name="Base.Theme.Logging" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Logging" parent="Base.Theme.Logging" />
+</resources>
