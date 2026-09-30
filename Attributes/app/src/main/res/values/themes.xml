@@ -1,0 +1,6 @@
+<resources>
+    <style name="Base.Theme.Attributes" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Attributes" parent="Base.Theme.Attributes" />
+</resources>
