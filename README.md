@@ -1,13 +1,19 @@
-# Разработка мобильных приложений
+# Лабораторная работа №1. Знакомство с Android Studio
 
 Абрамов Илья, ФИТ-241
 
-Каждая лабораторная работа лежит в своей ветке:
+| Задание | Проект | Что сделано |
+|---|---|---|
+| 1. Первое приложение | `FirstApp` | Шаблон Empty Views Activity, запуск на устройстве |
+| 2. LinearLayout, TextView | `LinearLayout` | Вертикальный LinearLayout, три TextView, перевод стиха в `strings.xml` |
+| 3. Button, ImageView, EditText | `Components` | EditText со строковым ресурсом, ImageView с иконкой, Button «ОК» |
 
-| Ветка | Тема |
-|---|---|
-| `lab1` | Знакомство с Android Studio |
-| `lab2` | События в приложении |
-| `lab3` | Начало работы с Jetpack Compose |
+## Запуск
 
-Переключиться на лабу: `git checkout lab1`
+Открыть папку нужного проекта в Android Studio, подключить телефон по USB с включённой отладкой и нажать Run.
+
+## Скриншоты
+
+| FirstApp | LinearLayout | Components |
+|---|---|---|
+| ![](screenshots/task1.png) | ![](screenshots/task2.png) | ![](screenshots/task3.png) |
