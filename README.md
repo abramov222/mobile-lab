@@ -1,13 +1,18 @@
-# Разработка мобильных приложений
+# Лабораторная работа №4. Создание списков
 
 Абрамов Илья, ФИТ-241
 
-Каждая лабораторная работа лежит в своей ветке:
+| Задание | Проект | Что сделано |
+|---|---|---|
+| Практическая часть | `Affirmations` | Data-класс `Affirmation`, `Datasource`, карточки `AffirmationCard` в `LazyColumn` |
+| Контрольное задание | `Courses` | Data-класс `Topic`, `DataSource`, карточки `TopicCard` в `LazyVerticalGrid` из двух столбцов |
 
-| Ветка | Тема |
-|---|---|
-| `lab1` | Знакомство с Android Studio |
-| `lab2` | События в приложении |
-| `lab3` | Начало работы с Jetpack Compose |
+## Запуск
 
-Переключиться на лабу: `git checkout lab1`
+Открыть папку нужного проекта в Android Studio, подключить телефон по USB с включённой отладкой и нажать Run.
+
+## Скриншоты
+
+| Affirmations | Affirmations (прокрутка) | Courses |
+|---|---|---|
+| ![](screenshots/lab4_1.png) | ![](screenshots/lab4_2.png) | ![](screenshots/lab4_3.png) |
