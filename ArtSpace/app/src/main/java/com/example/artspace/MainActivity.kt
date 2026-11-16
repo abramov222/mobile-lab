@@ -35,8 +35,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.artspace.ui.theme.ArtSpaceTheme
@@ -195,17 +198,17 @@ fun ArtworkDescriptor(
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Light
             )
-            Row {
-                Text(
-                    text = stringResource(artistId),
-                    style = MaterialTheme.typography.bodyLarge,
-                    fontWeight = FontWeight.Bold
-                )
-                Text(
-                    text = " (" + stringResource(yearId) + ")",
-                    style = MaterialTheme.typography.bodyLarge
-                )
-            }
+            val artist = stringResource(artistId)
+            val year = stringResource(yearId)
+            Text(
+                text = buildAnnotatedString {
+                    withStyle(SpanStyle(fontWeight = FontWeight.Bold)) {
+                        append(artist)
+                    }
+                    append(" ($year)")
+                },
+                style = MaterialTheme.typography.bodyLarge
+            )
         }
     }
 }
