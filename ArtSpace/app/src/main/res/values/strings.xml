@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="previous">Назад</string>
+    <string name="next">Далее</string>
+    <string name="starry_night_title">Звёздная ночь</string>
+    <string name="starry_night_artist">Винсент Ван Гог</string>
+    <string name="starry_night_year">1889</string>
+    <string name="ninth_wave_title">Девятый вал</string>
+    <string name="ninth_wave_artist">Иван Айвазовский</string>
+    <string name="ninth_wave_year">1850</string>
+    <string name="morning_pine_forest_title">Утро в сосновом лесу</string>
+    <string name="morning_pine_forest_artist">Иван Шишкин, Константин Савицкий</string>
+    <string name="morning_pine_forest_year">1889</string>
+    <string name="great_wave_title">Большая волна в Канагаве</string>
+    <string name="great_wave_artist">Кацусика Хокусай</string>
+    <string name="great_wave_year">1831</string>
+    <string name="girl_pearl_earring_title">Девушка с жемчужной серёжкой</string>
+    <string name="girl_pearl_earring_artist">Ян Вермеер</string>
+    <string name="girl_pearl_earring_year">1665</string>
+</resources>
