@@ -12,6 +12,7 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -139,18 +140,23 @@ fun TaskInputForm(
         Row(modifier = Modifier.fillMaxWidth()) {
             OutlinedButton(
                 onClick = { showDatePicker = true },
-                modifier = Modifier.weight(3f)
+                modifier = Modifier.weight(1.4f)
             ) {
                 Icon(imageVector = Icons.Filled.DateRange, contentDescription = null)
                 Spacer(Modifier.width(8.dp))
-                Text(taskDetails.date.toShortText())
+                Text(taskDetails.date.toShortText(), maxLines = 1)
             }
             Spacer(Modifier.width(8.dp))
             OutlinedButton(
                 onClick = { showTimePicker = true },
-                modifier = Modifier.weight(2f)
+                modifier = Modifier.weight(1f)
             ) {
-                Text("${stringResource(R.string.task_time)} ${taskDetails.time.toText()}")
+                Icon(
+                    imageVector = Icons.Filled.Notifications,
+                    contentDescription = stringResource(R.string.task_time)
+                )
+                Spacer(Modifier.width(8.dp))
+                Text(taskDetails.time.toText(), maxLines = 1)
             }
         }
         Text(
