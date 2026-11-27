@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Задачи</string>
+    <string name="back_button">Назад</string>
+    <string name="add_task">Новая задача</string>
+    <string name="edit_task">Редактирование</string>
+    <string name="task_details">Задача</string>
+    <string name="calendar">Календарь</string>
+    <string name="sort">Сортировка</string>
+    <string name="sort_date_asc">По дате: сначала ранние</string>
+    <string name="sort_date_desc">По дате: сначала поздние</string>
+    <string name="sort_title">По алфавиту</string>
+    <string name="previous_day">Предыдущий день</string>
+    <string name="next_day">Следующий день</string>
+    <string name="no_tasks">На этот день задач нет.\nНажмите +, чтобы добавить.</string>
+    <string name="task_title_req">Название*</string>
+    <string name="task_description">Описание</string>
+    <string name="task_date">Дата</string>
+    <string name="task_time">Время</string>
+    <string name="no_description">Описание не указано</string>
+    <string name="required_fields">*обязательное поле</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="attention">Внимание</string>
+    <string name="delete_question">Удалить эту задачу?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+</resources>
